@@ -8,11 +8,12 @@
 
 <body>
 	<!-- the entire body must be written by student -->
-<form action="#">
-	<label for="Name" id="#name">Name</label><br>
-	<input type="text" placeholder="Enter your name" required><br>
-	<label for="Email" id="#email">Email</label><br>
-	<input type="email" placeholder="Enter your E-mail Address" required><br>
+<form method="post">
+	<h1>Job Application Form</h1>
+	<label for="Name" >Name</label><br>
+	<input type="text" id="name" placeholder="Enter your name" required><br>
+	<label for="Email" >Email</label><br>
+	<input type="email" id="email" placeholder="Enter your E-mail Address" required><br>
 	<label for="Gender"></label>Gender<br>
 	<input type="radio" name="Gender" value="Male">
 	<label for="Male">Male</label>
@@ -24,14 +25,14 @@
 		<option value="Asus">Asus</option>
 		<option value="HP">HP</option>
 	</select><br>
-	<label for="Age" id="#age">Age</label>
+	<label for="Age" id="age">Age</label>
 	<input type="number" required ><br>
-	<label for="DOB" id="dob">DOB</label>
-	<input type="date" required><br>
-	<label for="Password" id="#password">Password</label>
-	<input type="password" required><br>
-	<label for="portfolio" id="portfolio">Portfolio</label>
-	<input type="url"><br>
+	<label for="DOB" >DOB</label>
+	<input type="date" id="dob" required><br>
+	<label for="Password" >Password</label>
+	<input type="password" id="password" required><br>
+	<label for="portfolio" >Portfolio</label>
+	<input type="url" id="portfolio"><br>
 	<button id="btn" type="submit">Submit</button>
 </form>    
 	<script type="text/javascript" src="./script.js">
